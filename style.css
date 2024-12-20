@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	/* border: 2px solid red; */
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ddd4d4;
+	padding: 30px;
+	gap: 40px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	gap: 6rem;
+}
+
+.controls {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	justify-content: space-around;
+}
+
+button {
+	border-radius: 4px;
+	border: 2px solid #363538;
+	background-color: #ddd4d4;
+	color: #363538;
+	padding: 6px;
+	font-size: 16px;
+}
+
+input[type='color'] {
+	border: none;
+	width: 80px;
+	height: 80px;
+	accent-color: #363538;
+	background: #f6f6f6;
+	align-self: center;
+}
+
+.title {
+	font-size: 40px;
+}
+.grid {
+	display: flex;
+	width: 500px;
+	height: 500px;
+	border: 2px solid #363538;
+}
+
+.modes {
+	display: flex;
+	flex-direction: column;
+	gap: 0.7rem;
+	align-items: center;
+}
+
+.selection {
+	display: flex;
+	justify-content: space-between;
+	gap: 4px;
+}
+
+.colorMode {
+	margin-right: auto;
+	flex: 2;
+}
+
+.label {
+	align-self: center;
+	font-size: 21px;
+	margin-bottom: -30px;
+}

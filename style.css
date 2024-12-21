@@ -50,12 +50,21 @@ input[type='color'] {
 
 .title {
 	font-size: 40px;
+	color: #363538;
 }
 .grid {
 	display: flex;
 	width: 500px;
 	height: 500px;
 	border: 2px solid #363538;
+	flex-wrap: wrap;
+	align-items: stretch;
+	box-sizing: content-box;
+}
+
+.child {
+	flex: initial;
+	background-color: #fff;
 }
 
 .modes {
@@ -80,4 +89,9 @@ input[type='color'] {
 	align-self: center;
 	font-size: 21px;
 	margin-bottom: -30px;
+}
+
+.clear {
+	color: #ddd4d4;
+	background-color: #363538;
 }

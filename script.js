@@ -8,7 +8,7 @@ const colorModeButton = document.querySelector('.colorMode');
 const rainbowModeButton = document.querySelector('.rainbowMode');
 const eraserButton = document.querySelector('.eraser');
 const clearButton = document.querySelector('.clear');
-let currentMode = '';
+let currentMode = 'color';
 let eraseOn = false;
 
 updateGrid(); //Updates grid based on base value (16)
